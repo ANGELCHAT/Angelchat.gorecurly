@@ -155,7 +155,7 @@ type SubscriptionAddOn struct {
 	XMLName           xml.Name `xml:"subscription_add_on"`
 	Type              string   `xml:"add_on_type,omitempty"`
 	Code              string   `xml:"add_on_code"`
-	UnitAmountInCents int      `xml:"unit_amount_in_cents"`
+	UnitAmountInCents int      `xml:"unit_amount_in_cents,omitempty"`
 	Quantity          int      `xml:"quantity,omitempty"`
 }
 
